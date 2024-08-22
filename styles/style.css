@@ -1,0 +1,19 @@
+.junior-program{
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../Images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.teenager-program{
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../Images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.professional-program{
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../Images/4.png);
+    width: full;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

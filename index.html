@@ -8,9 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="https://kit.fontawesome.com/852dbc555e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header class="container mx-auto">
+    <header class="container px-12">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -102,7 +103,7 @@
             </div>
           </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto lg:px-0 mx-auto h-[5rem]">
         <!-- Start Section -->
         <section class="mt-24">
             <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col items-center">
@@ -138,6 +139,46 @@
                     <h6>Training Ground</h6>
                     <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="mt-24">
+            <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col items-center">
+                <h3 class="text-3xl font-semibold mb-3">Program Section</h3>
+                <p class="opacity-80 w-1/2 ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Image1 -->
+                <div class="rounded-lg w-full junior-program flex flex-col justify-end items-center p-10 lg:p-24 text-white">
+                    <div>
+                        <h5 class="text-2xl font-semibold">Junior Program</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn btn-error mt-4 text-white">
+                            Register Now!
+                        </button>
+                    </div>
+                </div>
+                <!-- Image2 -->
+                <div class="rounded-lg w-full teenager-program flex flex-col justify-end items-center p-10 lg:p-24 text-white">
+                  <div>
+                      <h5 class="text-2xl font-semibold">Teenager Program</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <button class="btn btn-error mt-4 text-white">
+                          Register Now!
+                      </button>
+                  </div>
+              </div>
+                <!-- Image3 -->
+                <div class="rounded-lg w-full lg:col-span-2 professional-program flex flex-col justify-end items-center p-10 lg:p-24 text-white">
+                  <div>
+                      <h5 class="text-2xl font-semibold">Professional Program</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <button class="btn btn-error mt-4 text-white">
+                          Register Now!
+                      </button>
+                  </div>
+              </div>
             </div>
         </section>
         
